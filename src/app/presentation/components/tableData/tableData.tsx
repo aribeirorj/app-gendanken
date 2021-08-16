@@ -1,12 +1,11 @@
 import React from 'react'
 import { DataGrid, GridColDef, GridRowData } from '@material-ui/data-grid'
 import * as Styled from './tableData-styles'
-import { SaleModel } from '../../../domain/models/sale-model'
+import { ClientModel } from '../../../domain/models/client-model'
 import Dialog from '@material-ui/core/Dialog'
-// import DialogTitle from '@material-ui/core/DialogTitle'
 
 type Props = {
-  rows: SaleModel[]
+  rows: ClientModel[]
   columns: GridColDef[]
 }
 

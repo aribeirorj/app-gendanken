@@ -1,13 +1,16 @@
 
-This project uses lot of stuff as:
+Tecnologia utilizadas no projeto
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
+- [Material-ui](https://material-ui.com/)
 - [Styled Components](https://styled-components.com/)
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- [Storybook](https://storybook.js.org/)
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
+
+Informações
+
+- Esta pequena aplicacao foi desenvolvida em Next utilizando várias tecnologias, dentre elas o styled-components e o material UI, teoricamente o uso do material UI já bastava para atender a demanda, mas optei por usar o styled para demonstrar o uso desta library que também é poderosa.
 
 ## Getting Started
 

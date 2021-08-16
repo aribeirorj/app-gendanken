@@ -1,10 +1,10 @@
 import * as React from 'react'
 import * as Styled from './table-styles'
 import { TableData } from '../../../../components'
-import { SaleModel } from '../../../../../domain/models/sale-model'
+import { ClientModel } from '../../../../../domain/models/client-model'
 
 type Props = {
-  listData: SaleModel[]
+  listData: ClientModel[]
 }
 
 const columns = [

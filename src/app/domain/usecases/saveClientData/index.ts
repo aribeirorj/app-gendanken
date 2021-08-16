@@ -1,7 +1,7 @@
 import { postService } from '../../../services'
-import { SaleModel } from '../../models/sale-model'
+import { ClientModel } from '../../models/client-model'
 
-async function saveClientData(data: SaleModel) {
+async function saveClientData(data: ClientModel) {
   return await postService(data)
 }
 

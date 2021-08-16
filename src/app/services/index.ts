@@ -1,6 +1,6 @@
 import { api } from '../infra/http'
 import { data, answer } from '../infra/db/db.json'
-import { SaleModel } from '../domain/models/sale-model'
+import { ClientModel } from '../domain/models/client-model'
 
 export async function getService() {
   try {
@@ -11,7 +11,7 @@ export async function getService() {
   }
 }
 
-export async function postService(param: SaleModel) {
+export async function postService(param: ClientModel) {
   try {
     // return await api.post(param)
     alert(JSON.stringify(answer))

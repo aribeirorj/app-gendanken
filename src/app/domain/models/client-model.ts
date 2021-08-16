@@ -1,4 +1,4 @@
-export type SaleModel = {
+export type ClientModel = {
   id: number
   description?: string
   value?: Float32Array

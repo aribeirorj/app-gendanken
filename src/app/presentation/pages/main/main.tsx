@@ -3,19 +3,19 @@ import { DefaultLayout } from '../../layout/index'
 import { Table } from './components'
 import { loadData, saveClientData } from '../../../domain/usecases'
 import * as Styled from './main-styles'
-import { SaleModel } from '../../../domain/models/sale-model'
+import { ClientModel } from '../../../domain/models/client-model'
 import { Modal } from '../../components'
 import { FormClient } from './components'
 
 function HomePage() {
-  const [dataSale, setDataSale] = useState<SaleModel>()
+  const [dataSale, setDataSale] = useState<ClientModel>()
 
   const loadDataInitial = useCallback(async () => {
     const infoData = await loadData()
     infoData && setDataSale(infoData)
   }, [])
 
-  const formSubmit = useCallback(async (params: SaleModel) => {
+  const formSubmit = useCallback(async (params: ClientModel) => {
     await saveClientData(params)
   }, [])
 

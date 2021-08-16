@@ -4,10 +4,10 @@ import DialogContent from '@material-ui/core/DialogContent'
 import { useForm } from 'react-hook-form'
 import DialogActions from '@material-ui/core/DialogActions'
 import Button from '@material-ui/core/Button'
-import { SaleModel } from '../../../../../domain/models/sale-model'
+import { ClientModel } from '../../../../../domain/models/client-model'
 
 type Props = {
-  formClientSubmit(data: SaleModel): void
+  formClientSubmit(data: ClientModel): void
 }
 
 export default function FormClient({ formClientSubmit }: Props) {
@@ -17,7 +17,7 @@ export default function FormClient({ formClientSubmit }: Props) {
     handleSubmit
   } = useForm()
 
-  const onSubmit = (data: SaleModel) => {
+  const onSubmit = (data: ClientModel) => {
     formClientSubmit(data)
   }
 

@@ -1,2 +1,2 @@
-export { default as Header } from './header/header'
-export { default as Button } from './button/button'
+export { default as TableData } from './tableData/tableData'
+export { default as Modal } from './modal/modal'

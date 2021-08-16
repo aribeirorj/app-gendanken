@@ -18,7 +18,7 @@ export default {
       medium: '1.6rem',
       large: '1.8rem',
       xlarge: '2.0rem',
-      xxlarge: '7.2rem'
+      xxlarge: '4.2rem'
     },
     lineHeight: {
       xxsmall: '0.8rem',
